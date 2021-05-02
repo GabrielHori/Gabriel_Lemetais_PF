@@ -1,0 +1,116 @@
+/* Parametres Globaux */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../asset/backimg.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+:root {
+    --back-color: #161616;
+    --font-color: #ffffff;
+    --font-link: Arial;
+    --font-h1: 'Bebas Neue', cursive;;
+}
+
+/* text-font */
+
+h1, ul li a{
+    color: var(--font-color)
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    font-family: var(--font-link);
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 12px;
+}
+
+.text h1{
+    font-family: var(--font-h1);
+    letter-spacing: 18px;
+}
+
+/* main */
+
+.logo img{
+    width: 650px;
+    height: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    text-align: center;
+}
+.main .link-nav ul{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main .link-nav ul li{
+    position: relative;
+}
+
+.main .link-nav ul li a{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 0 99px;
+    gap: 10px;
+}
+
+.link-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.icon-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.icon-nav a i {
+    margin: 0 20px;
+    color: var(--font-color);
+}
+
+/* Media Queries */
+
+@media (max-width: 1520px) {
+    .main .link-nav ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 38px;
+    }
+}
+
+@media (max-width: 650px) {
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .link-nav{
+        margin-top: 6vh;
+    }
+    .main .link-nav ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 38px;
+        text-align: center;
+    }
+}
