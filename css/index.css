@@ -11,6 +11,7 @@ body{
     background-image: url(../asset/backimg.png);
     background-size: auto;
     background-repeat: no-repeat;
+    
 }
 
 :root {
@@ -41,7 +42,14 @@ li a{
     letter-spacing: 18px;
 }
 
-/* main */
+h2, p{
+    color: var(--font-color);
+    font-family: var(--font-link);
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* main index */
 
 .logo img{
     width: 650px;
@@ -54,17 +62,18 @@ li a{
 .text{
     text-align: center;
 }
-.main .link-nav ul{
+
+.link-nav ul{
     position: relative;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.main .link-nav ul li{
+.link-nav ul li{
     position: relative;
 }
 
-.main .link-nav ul li a{
+.link-nav ul li a{
     text-align: center;
     position: relative;
     display: inline-block;

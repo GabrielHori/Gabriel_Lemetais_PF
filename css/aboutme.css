@@ -1,0 +1,21 @@
+/* Parametres Globaux */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../asset/backimg.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+:root {
+    --back-color: #161616;
+    --font-color: #ffffff;
+    --font-link: Arial;
+    --font-h1: 'Bebas Neue', cursive;;
+}
