@@ -87,6 +87,7 @@ li a{
 .icon-nav a i {
     margin: 0 20px;
     color: var(--font-color);
+
 }
 
 /* Media Queries */
@@ -97,6 +98,12 @@ li a{
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 38px;
     }
+    .link-nav{
+        margin-top: 4vh;
+    }
+    .icon-nav{
+        margin-top: 6vh;
+    }
 }
 
 @media (max-width: 650px) {
@@ -105,12 +112,15 @@ li a{
         height: 100%;
     }
     .link-nav{
-        margin-top: 6vh;
+        margin-top: 3vh;
     }
     .main .link-nav ul{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 38px;
         text-align: center;
+    }
+    .icon-nav{
+        margin-top: 4vh;
     }
 }
