@@ -112,6 +112,7 @@ h2, p{
     }
     .icon-nav{
         margin-top: 6vh;
+        margin-bottom: 5vh;
     }
 }
 
@@ -122,6 +123,7 @@ h2, p{
     }
     .link-nav{
         margin-top: 3vh;
+        
     }
     .main .link-nav ul{
         display: grid;
@@ -131,5 +133,6 @@ h2, p{
     }
     .icon-nav{
         margin-top: 4vh;
+        margin-bottom: 5vh;
     }
 }
